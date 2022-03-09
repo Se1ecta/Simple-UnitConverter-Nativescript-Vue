@@ -1,0 +1,392 @@
+{
+  "data": [
+    {
+      "title": "Length",
+      "icon": "",
+      "active": true,
+      "measures": [
+        {
+          "name": "millimeter",
+          "short_name": "mm",
+          "conversions": [
+            {
+              "title": "mm",
+              "coefficient": "1",
+              "full_name": "millimeter"
+            },
+
+            {
+              "title": "cm",
+              "coefficient": "0.1",
+              "full_name": "centimeter"
+            },
+            {
+              "title": "dm",
+              "coefficient": "0.01",
+              "full_name": "decimeter"
+            },
+            {
+              "title": "m",
+              "coefficient": "0.001",
+              "full_name": "meter"
+            },
+            {
+              "title": "km",
+              "coefficient": "1e-6",
+              "full_name": "kilometer"
+            },
+            {
+              "title": "in",
+              "coefficient": "0.0393701",
+              "full_name":"inch"
+            },
+            {
+              "title": "ft",
+              "coefficient": "0.003280841666667",
+              "full_name":"foot"
+            }
+          ],
+          "description": "The length of the path traveled by the light in vacuum during a time interval of 1/299,792,458 of a second.",
+          "base_unit": true
+        },
+        {
+          "name": "centimeter",
+          "short_name": "cm",
+          "conversions": [
+            {
+              "title": "mm",
+              "coefficient": "10",
+              "full_name": "millimeter"
+            },
+
+            {
+              "title": "cm",
+              "coefficient": "1",
+              "full_name": "centimeter"
+            },
+            {
+              "title": "dm",
+              "coefficient": "0.1",
+              "full_name": "decimeter"
+            },
+            {
+              "title": "m",
+              "coefficient": "0.001",
+              "full_name": "meter"
+            },
+            {
+              "title": "km",
+              "coefficient": "1e-5",
+              "full_name": "kilometer"
+            },
+            {
+              "title": "in",
+              "coefficient": "0.393701",
+              "full_name":"inch"
+            },
+            {
+              "title": "ft",
+              "coefficient": "0.03280839895013",
+              "full_name":"foot"
+            }
+          ],
+          "description": "Give me an inch and I'll take it a mile!"
+        },
+        {
+          "name": "decimeter",
+          "short_name": "dm",
+          "conversions": [
+            {
+              "title": "mm",
+              "coefficient": "100",
+              "full_name": "millimeter"
+            },
+
+            {
+              "title": "cm",
+              "coefficient": "10",
+              "full_name": "centimeter"
+            },
+            {
+              "title": "dm",
+              "coefficient": "1",
+              "full_name": "decimeter"
+            },
+            {
+              "title": "m",
+              "coefficient": "0.1",
+              "full_name": "meter"
+            },
+            {
+              "title": "km",
+              "coefficient": "0.0001",
+              "full_name": "kilometer"
+            },
+            {
+              "title": "in",
+              "coefficient": "3.93701",
+              "full_name":"inch"
+            },
+            {
+              "title": "ft",
+              "coefficient": "0.3280839895013",
+              "full_name":"foot"
+            }
+          ],
+          "description": "Used to measure the height of horses. Equal to a third of a foot."
+        },
+        {
+          "name": "kilometer",
+          "short_name": "km",
+          "conversions": [
+            {
+              "title": "mm",
+              "coefficient": "1000000",
+              "full_name": "millimeter"
+            },
+
+            {
+              "title": "cm",
+              "coefficient": "100000",
+              "full_name": "centimeter"
+            },
+            {
+              "title": "dm",
+              "coefficient": "10000",
+              "full_name": "decimeter"
+            },
+            {
+              "title": "m",
+              "coefficient": "1000",
+              "full_name": "meter"
+            },
+            {
+              "title": "km",
+              "coefficient": "1",
+              "full_name": "kilometer"
+            },
+            {
+              "title": "in",
+              "coefficient": "39370.1",
+              "full_name":"inch"
+            },
+            {
+              "title": "ft",
+              "coefficient": "3280.839895013",
+              "full_name":"foot"
+            }
+          ],
+          "description": "The speed of light is roughly one foot per nanosecond."
+        },
+        {
+          "name": "inch",
+          "short_name": "in",
+          "conversions": [
+            {
+              "title": "mm",
+              "coefficient": "25.4",
+              "full_name": "millimeter"
+            },
+
+            {
+              "title": "cm",
+              "coefficient": "2.54",
+              "full_name": "centimeter"
+            },
+            {
+              "title": "dm",
+              "coefficient": "0.254",
+              "full_name": "decimeter"
+            },
+            {
+              "title": "m",
+              "coefficient": "0.0254",
+              "full_name": "meter"
+            },
+            {
+              "title": "km",
+              "coefficient": "2.54e-5",
+              "full_name": "kilometer"
+            },
+            {
+              "title": "in",
+              "coefficient": "1",
+              "full_name":"inch"
+            },
+            {
+              "title": "ft",
+              "coefficient": "o.83333333333333",
+              "full_name":"foot"
+            }
+          ],
+          "description": "The length of a north-south block in downtown Manhattan."
+        },
+        {
+          "name": "foot",
+          "short_name": "ft",
+          "conversions": [
+            {
+              "title": "mm",
+              "coefficient": "304.8",
+              "full_name": "millimeter"
+            },
+
+            {
+              "title": "cm",
+              "coefficient": "30.48",
+              "full_name": "centimeter"
+            },
+            {
+              "title": "dm",
+              "coefficient": "3.048",
+              "full_name": "decimeter"
+            },
+            {
+              "title": "m",
+              "coefficient": "0.3048",
+              "full_name": "meter"
+            },
+            {
+              "title": "km",
+              "coefficient": "0.0003048",
+              "full_name": "kilometer"
+            },
+            {
+              "title": "in",
+              "coefficient": "12",
+              "full_name":"inch"
+            },
+            {
+              "title": "ft",
+              "coefficient": "1",
+              "full_name":"foot"
+            }
+          ],
+          "description": "An iconic tower in Paris."
+        }
+      ]
+    },
+    {
+      "title": "Mass",
+      "icon": "",
+      "active": false,
+      "measures": [
+        {
+          "name": "milligramm",
+          "short_name": "mg",
+          "conversions": [
+            {
+              "title": "mg",
+              "coefficient": "1"
+            },
+            {
+              "title": "g",
+              "coefficient": "0.001"
+            },
+            {
+              "title": "kg",
+              "coefficient": "1e-6"
+            },
+            {
+              "title": "t",
+              "coefficient": "0.01543235835294"
+            }
+          ],
+          "base_unit": true
+        },
+        {
+          "name": "square centimeter",
+          "short_name": "cm^2",
+          "conversions": [
+            {
+              "title": "mg",
+              "coefficient": "1"
+            },
+            {
+              "title": "g",
+              "coefficient": "0.001"
+            },
+            {
+              "title": "kg",
+              "coefficient": "1e-6"
+            },
+            {
+              "title": "t",
+              "coefficient": "0.01543235835294"
+            }
+          ],
+          "description": "A British biscuit where all brands are apparently 61x30mm in size. Once suggested worthy to be an SI unit of measurement."
+        },
+        {
+          "name": "square meter",
+          "short_name": "m^2",
+          "conversions": [
+            {
+              "title": "mg",
+              "coefficient": "1"
+            },
+            {
+              "title": "g",
+              "coefficient": "0.001"
+            },
+            {
+              "title": "kg",
+              "coefficient": "1e-6"
+            },
+            {
+              "title": "t",
+              "coefficient": "0.01543235835294"
+            }
+          ],
+          "description": "The area of an American football field, including the endzones."
+        },
+        {
+          "name": "a",
+          "short_name": "are",
+          "conversions": [
+            {
+              "title": "mg",
+              "coefficient": "1"
+            },
+            {
+              "title": "g",
+              "coefficient": "0.001"
+            },
+            {
+              "title": "kg",
+              "coefficient": "1e-6"
+            },
+            {
+              "title": "t",
+              "coefficient": "0.01543235835294"
+            }
+          ],
+          "description": "The area of a Canadian football field, including the endzones."
+        },
+        {
+          "name": "hectare",
+          "short_name": "ha",
+          "conversions": [
+            {
+              "title": "mg",
+              "coefficient": "1"
+            },
+            {
+              "title": "g",
+              "coefficient": "0.001"
+            },
+            {
+              "title": "kg",
+              "coefficient": "1e-6"
+            },
+            {
+              "title": "t",
+              "coefficient": "0.01543235835294"
+            }
+          ],
+          "description": "The amount of land that can be tilled by one person behind an ox in the morning hours of the day. This is quite vague, especially if you are chatting with the ox instead of working."
+        }
+      ]
+    }
+  ]
+}
