@@ -1,9 +1,9 @@
 <template>
   <Page>
-    <ActionBar title="UnitConverter"  />
+    <ActionBar title="Unit converter"  />
     <StackLayout class="converter">
       <ScrollView orientation="horizontal">
-        <StackLayout orientation="horizontal" ref="unitTypes">
+        <StackLayout orientation="horizontal" padding="10 15">
           <StackLayout
             class="unit-type-wrapper"
             @tap="addActiveClass(0)"
@@ -193,12 +193,15 @@ ActionBar {
 }
 
 .unit-type-wrapper {
+  display: flex;
+  justify-content: center;
   padding: 5;
   text-shadow: 1px 1px 1px #ccc;
   margin-right: 15;
   Image {
     color: #447dd4;
     font-size: 14;
+    text-align: center;
   }
   Label {
     text-align: center;
