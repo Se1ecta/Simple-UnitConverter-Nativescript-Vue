@@ -277,89 +277,129 @@
           "conversions": [
             {
               "title": "mg",
-              "coefficient": "1"
+              "coefficient": "1",
+              "full_name": "milligramm"
             },
+
             {
               "title": "g",
-              "coefficient": "0.001"
+              "coefficient": "0.001",
+              "full_name": "gramm"
             },
             {
               "title": "kg",
-              "coefficient": "1e-6"
+              "coefficient": "1e-6",
+              "full_name": "kilogramm"
             },
             {
               "title": "t",
-              "coefficient": "0.01543235835294"
-            }
+              "coefficient": "1e-9",
+              "full_name": "metric tonn"
+            },
+            {
+              "title": "gr",
+              "coefficient": "0.01543235835294",
+              "full_name": "grain"
+            }   
           ],
           "base_unit": true
         },
         {
-          "name": "square centimeter",
-          "short_name": "cm^2",
+          "name": "gramm",
+          "short_name": "g",
           "conversions": [
             {
               "title": "mg",
-              "coefficient": "1"
+              "coefficient": "1000",
+              "full_name": "milligramm"
             },
+
             {
               "title": "g",
-              "coefficient": "0.001"
+              "coefficient": "1",
+              "full_name": "gramm"
             },
             {
               "title": "kg",
-              "coefficient": "1e-6"
+              "coefficient": "0.001",
+              "full_name": "kilogramm"
             },
             {
               "title": "t",
-              "coefficient": "0.01543235835294"
-            }
+              "coefficient": "1e-6",
+              "full_name": "metric tonn"
+            },
+            {
+              "title": "gr",
+              "coefficient": "15.43235835294",
+              "full_name": "grain"
+            }   
           ],
           "description": "A British biscuit where all brands are apparently 61x30mm in size. Once suggested worthy to be an SI unit of measurement."
         },
         {
-          "name": "square meter",
-          "short_name": "m^2",
+          "name": "kilogramm",
+          "short_name": "kg",
           "conversions": [
             {
               "title": "mg",
-              "coefficient": "1"
+              "coefficient": "1000000",
+              "full_name": "milligramm"
             },
+
             {
               "title": "g",
-              "coefficient": "0.001"
+              "coefficient": "1000",
+              "full_name": "gramm"
             },
             {
               "title": "kg",
-              "coefficient": "1e-6"
+              "coefficient": "1",
+              "full_name": "kilogramm"
             },
             {
               "title": "t",
-              "coefficient": "0.01543235835294"
-            }
+              "coefficient": "0.001",
+              "full_name": "metric tonn"
+            },
+            {
+              "title": "gr",
+              "coefficient": "15432.35835294",
+              "full_name": "grain"
+            }   
           ],
           "description": "The area of an American football field, including the endzones."
         },
         {
-          "name": "a",
-          "short_name": "are",
+          "name": "grain",
+          "short_name": "gr",
           "conversions": [
             {
               "title": "mg",
-              "coefficient": "1"
+              "coefficient": "64.798991",
+              "full_name": "milligramm"
             },
+
             {
               "title": "g",
-              "coefficient": "0.001"
+              "coefficient": "0.64798991",
+              "full_name": "gramm"
             },
             {
               "title": "kg",
-              "coefficient": "1e-6"
+              "coefficient": "64798991e-5",
+              "full_name": "kilogramm"
             },
             {
               "title": "t",
-              "coefficient": "0.01543235835294"
-            }
+              "coefficient": "64798991e-8",
+              "full_name": "metric tonn"
+            },
+            {
+              "title": "gr",
+              "coefficient": "1",
+              "full_name": "grain"
+            }   
           ],
           "description": "The area of a Canadian football field, including the endzones."
         },
