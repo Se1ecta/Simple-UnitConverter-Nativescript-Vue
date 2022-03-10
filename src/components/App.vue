@@ -1,32 +1,45 @@
 <template>
   <Page>
-    <ActionBar title="Welcome to NativeScript-Vue!" />
+    <ActionBar title="UnitConverter"  />
     <StackLayout class="converter">
       <ScrollView orientation="horizontal">
         <StackLayout orientation="horizontal" ref="unitTypes">
-          <StackLayout class="unit-type-wrapper" @tap="addActiveClass(0)">
+          <StackLayout
+            class="unit-type-wrapper"
+            @tap="addActiveClass(0)"
+            :class="items[0].active ? 'active' : ''"
+          >
             <Image
               src.decode="font://&#xf545;"
               class="unit-image fas"
               stretch="none"
-              :class="activeUnit === 'Length' ? 'active' : ''"
+              :class="items[0].active ? 'active' : ''"
             />
             <Label text="Length"></Label>
           </StackLayout>
-          <StackLayout class="unit-type-wrapper" @tap="addActiveClass(1)">
+          <StackLayout
+            class="unit-type-wrapper"
+            @tap="addActiveClass(1)"
+            :class="items[1].active ? 'active' : ''"
+          >
             <Image
               src.decode="font://&#xf5cd;"
               class="unit-image fas"
               stretch="none"
-              :class="activeUnit === 'Mass' ? 'active' : ''"
             />
+            <Label text="Mass"></Label>
           </StackLayout>
-          <StackLayout class="unit-type-wrapper">
+          <StackLayout
+            class="unit-type-wrapper"
+            @tap="addActiveClass(2)"
+            :class="items[2].active ? 'active' : ''"
+          >
             <Image
               src.decode="font://&#xf624;"
               class="unit-image fas"
               stretch="none"
             />
+            <Label text="Speed"></Label>
           </StackLayout>
         </StackLayout>
       </ScrollView>
@@ -46,12 +59,6 @@
           marginTop="15"
           class="drop-down"
         />
-        <!-- <ListPicker
-          :items="measuresShortNames"
-          :selectedIndex="selectedIndex"
-          width="50%"
-          @selectedIndexChange="selectedIndexChanged($event)"
-        /> -->
       </FlexboxLayout>
       <StackLayout>
         <ScrollView height="100%">
@@ -86,11 +93,9 @@ export default {
       units: newUnits.data,
       selectedIndex: 0,
       items: [
-        { title: "Length", icon: "font://&#xf545;", active: true },
-        { title: "Mass", icon: "font://&#xf545;", active: false },
-        { title: "Lenght", icon: "", active: false },
-        { title: "Lenght", icon: "", active: false },
-        { title: "Lenght", icon: "", active: false },
+        { title: "Length", active: true },
+        { title: "Mass", active: false },
+        { title: "Speed", active: false },
       ],
     };
   },
@@ -144,11 +149,10 @@ export default {
   methods: {
     addActiveClass(i) {
       this.clearActiveUnits();
-      this.items[i].active = true;
-      this.activeUnit = this.items[i].title;
-      console.log("active");
-      console.log(this.items[i]);
-      console.log(this.items);
+      this.items.forEach((item, index) => {
+        return (item.active = i === index);
+      });
+      console.log(this.activeUnitName);
     },
     clearActiveUnits() {
       this.items.forEach((unit) => {
@@ -160,7 +164,7 @@ export default {
       const result = [];
       this.conversions.forEach((conversion) => {
         const short_name = conversion.title;
-        const full_name = conversion.full_name
+        const full_name = conversion.full_name;
         const value = conversion.coefficient * this.value;
         console.log(value);
         result.push({
@@ -188,13 +192,20 @@ ActionBar {
   color: #ffffff;
 }
 
-.drop-down {
-  // border-bottom-width: 0.6;
-  // border-color: #aaaaaa6e;
-}
-
 .unit-type-wrapper {
   padding: 5;
+  text-shadow: 1px 1px 1px #ccc;
+  margin-right: 15;
+  Image {
+    color: #447dd4;
+    font-size: 14;
+  }
+  Label {
+    text-align: center;
+  }
+  &:last-child {
+    margin-right: 7;
+  }
 }
 .unit-image {
   font-size: 14;
@@ -230,5 +241,8 @@ ActionBar {
 }
 .active {
   color: orange;
+  Image {
+    // color: orange;
+  }
 }
 </style>
