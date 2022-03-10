@@ -38,12 +38,12 @@
             {
               "title": "in",
               "coefficient": "0.0393701",
-              "full_name":"inch"
+              "full_name": "inch"
             },
             {
               "title": "ft",
               "coefficient": "0.003280841666667",
-              "full_name":"foot"
+              "full_name": "foot"
             }
           ],
           "description": "The length of the path traveled by the light in vacuum during a time interval of 1/299,792,458 of a second.",
@@ -82,12 +82,12 @@
             {
               "title": "in",
               "coefficient": "0.393701",
-              "full_name":"inch"
+              "full_name": "inch"
             },
             {
               "title": "ft",
               "coefficient": "0.03280839895013",
-              "full_name":"foot"
+              "full_name": "foot"
             }
           ],
           "description": "Give me an inch and I'll take it a mile!"
@@ -125,12 +125,12 @@
             {
               "title": "in",
               "coefficient": "3.93701",
-              "full_name":"inch"
+              "full_name": "inch"
             },
             {
               "title": "ft",
               "coefficient": "0.3280839895013",
-              "full_name":"foot"
+              "full_name": "foot"
             }
           ],
           "description": "Used to measure the height of horses. Equal to a third of a foot."
@@ -168,12 +168,12 @@
             {
               "title": "in",
               "coefficient": "39370.1",
-              "full_name":"inch"
+              "full_name": "inch"
             },
             {
               "title": "ft",
               "coefficient": "3280.839895013",
-              "full_name":"foot"
+              "full_name": "foot"
             }
           ],
           "description": "The speed of light is roughly one foot per nanosecond."
@@ -211,12 +211,12 @@
             {
               "title": "in",
               "coefficient": "1",
-              "full_name":"inch"
+              "full_name": "inch"
             },
             {
               "title": "ft",
               "coefficient": "o.83333333333333",
-              "full_name":"foot"
+              "full_name": "foot"
             }
           ],
           "description": "The length of a north-south block in downtown Manhattan."
@@ -254,12 +254,12 @@
             {
               "title": "in",
               "coefficient": "12",
-              "full_name":"inch"
+              "full_name": "inch"
             },
             {
               "title": "ft",
               "coefficient": "1",
-              "full_name":"foot"
+              "full_name": "foot"
             }
           ],
           "description": "An iconic tower in Paris."
@@ -300,7 +300,7 @@
               "title": "gr",
               "coefficient": "0.01543235835294",
               "full_name": "grain"
-            }   
+            }
           ],
           "base_unit": true
         },
@@ -333,7 +333,7 @@
               "title": "gr",
               "coefficient": "15.43235835294",
               "full_name": "grain"
-            }   
+            }
           ],
           "description": "A British biscuit where all brands are apparently 61x30mm in size. Once suggested worthy to be an SI unit of measurement."
         },
@@ -366,7 +366,7 @@
               "title": "gr",
               "coefficient": "15432.35835294",
               "full_name": "grain"
-            }   
+            }
           ],
           "description": "The area of an American football field, including the endzones."
         },
@@ -399,7 +399,7 @@
               "title": "gr",
               "coefficient": "1",
               "full_name": "grain"
-            }   
+            }
           ],
           "description": "The area of a Canadian football field, including the endzones."
         },
@@ -426,6 +426,205 @@
           ],
           "description": "The amount of land that can be tilled by one person behind an ox in the morning hours of the day. This is quite vague, especially if you are chatting with the ox instead of working."
         }
+      ]
+    },
+    {
+      "title": "Speed",
+      "icon": "",
+      "active": false,
+      "measures": [
+        {
+          "name": "meters/second",
+          "short_name": "m/s",
+          "conversions": [
+            {
+              "title": "m/s",
+              "coefficient": "1",
+              "full_name": "meters/second"
+            },
+
+            {
+              "title": "m/min",
+              "coefficient": "60",
+              "full_name": "meters/minute"
+            },
+            {
+              "title": "km/min",
+              "coefficient": "0.06",
+              "full_name": "kilometers/minute"
+            },
+            {
+              "title": "km/h",
+              "coefficient": "3.6",
+              "full_name": "kilometers/hour"
+            },
+            {
+              "title": "ft/s",
+              "coefficient": "3.28083989501312",
+              "full_name": "feet/second"
+            },
+            {
+              "title": "mph",
+              "coefficient": "2.2369362920544",
+              "full_name": "miles/hour"
+            }
+          ],
+          "base_unit": true
+        },
+        {
+          "name": "meter/minute",
+          "short_name": "m/min",
+          "conversions": [
+            {
+              "title": "m/s",
+              "coefficient": "0.0166666666666667",
+              "full_name": "meters/second"
+            },
+
+            {
+              "title": "m/min",
+              "coefficient": "1",
+              "full_name": "meters/minute"
+            },
+            {
+              "title": "km/min",
+              "coefficient": "0.01",
+              "full_name": "kilometers/minute"
+            },
+            {
+              "title": "km/h",
+              "coefficient": "0.06",
+              "full_name": "kilometers/hour"
+            },
+            {
+              "title": "ft/s",
+              "coefficient": "0.05468066491689",
+              "full_name": "feet/second"
+            },
+            {
+              "title": "mph",
+              "coefficient": "0.03728227153424",
+              "full_name": "miles/hour"
+            }
+          ],
+          
+          "description": "A British biscuit where all brands are apparently 61x30mm in size. Once suggested worthy to be an SI unit of measurement."
+        },
+        {
+          "name": "kilometer/minute",
+          "short_name": "km/min",
+          "conversions": [
+            {
+              "title": "m/s",
+              "coefficient": "16.6666666666667",
+              "full_name": "meters/second"
+            },
+
+            {
+              "title": "m/min",
+              "coefficient": "1000",
+              "full_name": "meters/minute"
+            },
+            {
+              "title": "km/min",
+              "coefficient": "1",
+              "full_name": "kilometers/minute"
+            },
+            {
+              "title": "km/h",
+              "coefficient": "60",
+              "full_name": "kilometers/hour"
+            },
+            {
+              "title": "ft/s",
+              "coefficient": "54.68066491689",
+              "full_name": "feet/second"
+            },
+            {
+              "title": "mph",
+              "coefficient": "37.28227153424",
+              "full_name": "miles/hour"
+            }
+          ],
+          "description": "The area of an American football field, including the endzones."
+        },
+        {
+          "name": "feet/second",
+          "short_name": "ft/s",
+          "conversions": [
+            {
+              "title": "m/s",
+              "coefficient": "0.3048",
+              "full_name": "meters/second"
+            },
+
+            {
+              "title": "m/min",
+              "coefficient": "18.288",
+              "full_name": "meters/minute"
+            },
+            {
+              "title": "km/min",
+              "coefficient": "0.018288",
+              "full_name": "kilometers/minute"
+            },
+            {
+              "title": "km/h",
+              "coefficient": "1.09728",
+              "full_name": "kilometers/hour"
+            },
+            {
+              "title": "ft/s",
+              "coefficient": "1",
+              "full_name": "feet/second"
+            },
+            {
+              "title": "mph",
+              "coefficient": "0.68181818181818",
+              "full_name": "miles/hour"
+            }
+          ],
+          "description": "The area of a Canadian football field, including the endzones."
+        },
+        {
+          "name": "miles/hour",
+          "short_name": "mph",
+          "conversions": [
+            {
+              "title": "m/s",
+              "coefficient": "0.44704",
+              "full_name": "meters/second"
+            },
+
+            {
+              "title": "m/min",
+              "coefficient": "26.8224",
+              "full_name": "meters/minute"
+            },
+            {
+              "title": "km/min",
+              "coefficient": "0.0268224",
+              "full_name": "kilometers/minute"
+            },
+            {
+              "title": "km/h",
+              "coefficient": "1.609344",
+              "full_name": "kilometers/hour"
+            },
+            {
+              "title": "ft/s",
+              "coefficient": "1.46666666666666667",
+              "full_name": "feet/second"
+            },
+            {
+              "title": "mph",
+              "coefficient": "1",
+              "full_name": "miles/hour"
+            }
+          ],
+          "description": "The area of a Canadian football field, including the endzones."
+        }
+       
       ]
     }
   ]

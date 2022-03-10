@@ -202,9 +202,10 @@ ActionBar {
   }
   Label {
     text-align: center;
+    
   }
   &:last-child {
-    margin-right: 7;
+    margin-right: 0;
   }
 }
 .unit-image {
